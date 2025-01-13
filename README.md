@@ -57,21 +57,21 @@ Ensure all columns have consistent formatting.
    ```bash
     python src/main.py
   This script will:
-    Perform factor synthesis using macroeconomic indicators.
-    Generate dynamically adjusted portfolio weights with risk budgeting.
-    Forecast future returns using machine learning.
+    1. *Perform factor synthesis using macroeconomic indicators.*
+    2. *Generate dynamically adjusted portfolio weights with risk budgeting.*
+    3. *Forecast future returns using machine learning.*
 2. **Optionally, Explore the Data**
   Open the Jupyter notebook for factor analysis and visualization:
     ```bash
      jupyter notebook notebooks/factor_exploration.ipynb
   This notebook allows you to:
-    Visualize macroeconomic indicators.
-    Perform PCA or explore correlations between factors.
+    1. *Visualize macroeconomic indicators.*
+    2. *Perform PCA or explore correlations between factors.*
 3. **View Outputs**
   After running the pipeline, key outputs will include:
-    Generated factors: Optionally saved as a processed dataset in data/processed_factors.csv.
-    Portfolio performance metrics: Displayed in the terminal.
-    ML model predictions: Printed or saved for further analysis
+    1. *Generated factors: Optionally saved as a processed dataset in data/processed_factors.csv.*
+    2. *Portfolio performance metrics: Displayed in the terminal.*
+    3. *ML model predictions: Printed or saved for further analysis*
 
 ## Project-Structure 
 cross-asset-risk-parity/
