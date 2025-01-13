@@ -39,8 +39,7 @@ This project implements a cross-asset risk parity strategy using:
 2. **Install Dependencies** 
   Install the required Python libraries using pip:
 
-    ```bash
-
+   ```bash
   pip install -r requirements.txt
 
 3. **Prepare Real Data**
@@ -54,16 +53,16 @@ Ensure all columns have consistent formatting.
 
 1. **Run the Full Pipeline**
   To process the data, synthesize factors, apply adaptive risk budgeting, and integrate machine learning, run:
-  ```bash
-  python src/main.py
+   ```bash
+    python src/main.py
   This script will:
     Perform factor synthesis using macroeconomic indicators.
     Generate dynamically adjusted portfolio weights with risk budgeting.
     Forecast future returns using machine learning.
 2. **Optionally, Explore the Data**
   Open the Jupyter notebook for factor analysis and visualization:
-  ```bash
-  jupyter notebook notebooks/factor_exploration.ipynb
+    ```bash
+     jupyter notebook notebooks/factor_exploration.ipynb
   This notebook allows you to:
     Visualize macroeconomic indicators.
     Perform PCA or explore correlations between factors.
