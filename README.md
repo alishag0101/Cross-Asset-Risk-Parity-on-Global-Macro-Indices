@@ -54,14 +54,14 @@ Ensure all columns have consistent formatting.
 
 1. **Run the Full Pipeline**
   To process the data, synthesize factors, apply adaptive risk budgeting, and integrate machine learning, run:
-   ```bash
+    ```bash
     python src/main.py
    
   This script will:
   
-    1. *Perform factor synthesis using macroeconomic indicators.*
-    2. *Generate dynamically adjusted portfolio weights with risk budgeting.*
-    3. *Forecast future returns using machine learning.*
+  1. *Perform factor synthesis using macroeconomic indicators.*
+  2. *Generate dynamically adjusted portfolio weights with risk budgeting.*
+  3. *Forecast future returns using machine learning.*
 
 2. **Optionally, Explore the Data**
   Open the Jupyter notebook for factor analysis and visualization:
