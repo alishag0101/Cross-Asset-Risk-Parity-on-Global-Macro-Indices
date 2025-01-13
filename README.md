@@ -40,7 +40,8 @@ This project implements a cross-asset risk parity strategy using:
   Install the required Python libraries using pip:
 
    ```bash
-  pip install -r requirements.txt
+   
+   pip install -r requirements.txt
 
 3. **Prepare Real Data**
   Replace the mock data in data/sample_macro_data.csv with real macroeconomic data. Ensure the CSV file has the following columns:
