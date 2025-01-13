@@ -62,8 +62,12 @@ Ensure all columns have consistent formatting.
     3. *Forecast future returns using machine learning.*
 2. **Optionally, Explore the Data**
   Open the Jupyter notebook for factor analysis and visualization:
+
+  
     ```bash
-     jupyter notebook notebooks/factor_exploration.ipynb
+   
+    jupyter notebook notebooks/factor_exploration.ipynb
+
   This notebook allows you to:
     1. *Visualize macroeconomic indicators.*
     2. *Perform PCA or explore correlations between factors.*
