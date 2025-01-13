@@ -71,8 +71,8 @@ Ensure all columns have consistent formatting.
    cd Cross-Asset-Risk-Parity-on-Global-Macro-Indices
 
   This notebook allows you to:
-    1. *Visualize macroeconomic indicators.*
-    2. *Perform PCA or explore correlations between factors.*
+    1. Visualize macroeconomic indicators.
+    2. Perform PCA or explore correlations between factors.
 
 3. **View Outputs**
   After running the pipeline, key outputs will include:
