@@ -72,8 +72,8 @@ Ensure all columns have consistent formatting.
 
   This notebook allows you to:
   
-  1. *Visualize macroeconomic indicators.*
-  2. *Perform PCA or explore correlations between factors.*
+  i. *Visualize macroeconomic indicators.*
+  ii. *Perform PCA or explore correlations between factors.*
 
 3. **View Outputs**
   After running the pipeline, key outputs will include:
