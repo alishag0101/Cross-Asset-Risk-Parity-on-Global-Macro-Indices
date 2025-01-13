@@ -65,11 +65,15 @@ Ensure all columns have consistent formatting.
   
     ```bash
    
-     jupyter notebook notebooks/factor_exploration.ipynb
+    jupyter notebook notebooks/factor_exploration.ipynb
+
+   git clone https://github.com/alishag0101/Cross-Asset-Risk-Parity-on-Global-Macro-Indices.git
+   cd Cross-Asset-Risk-Parity-on-Global-Macro-Indices
 
   This notebook allows you to:
     1. *Visualize macroeconomic indicators.*
     2. *Perform PCA or explore correlations between factors.*
+
 3. **View Outputs**
   After running the pipeline, key outputs will include:
     1. *Generated factors: Optionally saved as a processed dataset in data/processed_factors.csv.*
