@@ -59,9 +59,9 @@ Ensure all columns have consistent formatting.
    
   This script will:
   
-  1. *Perform factor synthesis using macroeconomic indicators.*
-  2. *Generate dynamically adjusted portfolio weights with risk budgeting.*
-  3. *Forecast future returns using machine learning.*
+  i. *Perform factor synthesis using macroeconomic indicators.*
+  ii. *Generate dynamically adjusted portfolio weights with risk budgeting.*
+  iii. *Forecast future returns using machine learning.*
 
 2. **Optionally, Explore the Data**
   Open the Jupyter notebook for factor analysis and visualization:
