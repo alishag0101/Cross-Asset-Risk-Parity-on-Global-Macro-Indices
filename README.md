@@ -29,7 +29,58 @@ This project implements a cross-asset risk parity strategy using:
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the Repository**  
+   First, clone the repository to your local machine:
    ```bash
-   git clone https://github.com/YourUsername/cross-asset-risk-parity.git
-   cd cross-asset-risk-parity
+   git clone https://github.com/alishag0101/Cross-Asset-Risk-Parity-on-Global-Macro-Indices.git
+   cd Cross-Asset-Risk-Parity-on-Global-Macro-Indices
+2. **Install Dependencies**
+  Install the required Python libraries using pip:
+
+  ```bash
+  pip install -r requirements.txt
+3. **Prepare Real Data**
+  Replace the mock data in data/sample_macro_data.csv with real macroeconomic data. Ensure the CSV file has the following columns:
+  Date: Timestamps of data points.
+  InterestRates, Inflation, GDPGrowth: Macro indicators.
+  EquityReturns, BondReturns, FXReturns, CommodityReturns: Asset returns.
+Ensure all columns have consistent formatting.
+
+## Usage
+
+1. **Run the Full Pipeline**
+  To process the data, synthesize factors, apply adaptive risk budgeting, and integrate machine learning, run:
+  ```bash
+  python src/main.py
+  This script will:
+    Perform factor synthesis using macroeconomic indicators.
+    Generate dynamically adjusted portfolio weights with risk budgeting.
+    Forecast future returns using machine learning.
+2. **Optionally, Explore the Data**
+  Open the Jupyter notebook for factor analysis and visualization:
+  ```bash
+  jupyter notebook notebooks/factor_exploration.ipynb
+  This notebook allows you to:
+    Visualize macroeconomic indicators.
+    Perform PCA or explore correlations between factors.
+3. **View Outputs**
+  After running the pipeline, key outputs will include:
+    Generated factors: Optionally saved as a processed dataset in data/processed_factors.csv.
+    Portfolio performance metrics: Displayed in the terminal.
+    ML model predictions: Printed or saved for further analysis
+
+## Project-Structure 
+cross-asset-risk-parity/
+├── README.md
+├── requirements.txt
+├── data/
+│   └── sample_macro_data.csv
+├── notebooks/
+│   └── factor_exploration.ipynb
+├── src/
+│   ├── factor_synthesis.py
+│   ├── adaptive_risk_budgeting.py
+│   ├── ml_integration.py
+│   ├── main.py
+└── LICENSE
+
