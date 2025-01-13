@@ -32,13 +32,16 @@ This project implements a cross-asset risk parity strategy using:
 1. **Clone the Repository**  
    First, clone the repository to your local machine:
    ```bash
+   
    git clone https://github.com/alishag0101/Cross-Asset-Risk-Parity-on-Global-Macro-Indices.git
    cd Cross-Asset-Risk-Parity-on-Global-Macro-Indices
-2. **Install Dependencies**
+2. **Install Dependencies** 
   Install the required Python libraries using pip:
 
   ```bash
+
   pip install -r requirements.txt
+
 3. **Prepare Real Data**
   Replace the mock data in data/sample_macro_data.csv with real macroeconomic data. Ensure the CSV file has the following columns:
   Date: Timestamps of data points.
