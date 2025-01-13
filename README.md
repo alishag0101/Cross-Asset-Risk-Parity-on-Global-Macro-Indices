@@ -31,6 +31,7 @@ This project implements a cross-asset risk parity strategy using:
 
 1. **Clone the Repository**  
    First, clone the repository to your local machine:
+   
    ```bash
    
    git clone https://github.com/alishag0101/Cross-Asset-Risk-Parity-on-Global-Macro-Indices.git
@@ -38,7 +39,7 @@ This project implements a cross-asset risk parity strategy using:
 2. **Install Dependencies** 
   Install the required Python libraries using pip:
 
-  ```bash
+    ```bash
 
   pip install -r requirements.txt
 
