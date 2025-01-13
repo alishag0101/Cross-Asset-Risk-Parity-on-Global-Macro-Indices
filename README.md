@@ -1,1 +1,0 @@
-# Cross-Asset-Risk-Parity-on-Global-Macro-Indices
